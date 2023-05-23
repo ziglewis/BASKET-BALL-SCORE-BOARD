@@ -1,0 +1,124 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BASKET BALL SCORE BOARD</title>
+</head>
+
+
+<body>
+    <main>
+        <div class="container">
+
+                        <!-- this is the first div for all you see in the home board -->
+                     <div class="home-team-box"> 
+
+                         <div class="write-up">
+                             <h1>HOME</h1>
+                         </div>
+
+                         <div class="home-score">
+                              <h1 id="home-team-score">0</h1>
+                          </div>
+
+                          <div class="home-team-name"> 
+                              <h2 contenteditable="">Lackers</h2>
+                          </div>
+                         
+
+                        
+                     </div> 
+                        <!-- The home div ends here -->
+
+                            <!-- the div for the center where you have versus and timer begins -->
+
+                    <div class="Versus-box"> 
+                        
+                      <div class="timer"></div>
+                      <div class="score-dot">:</div>
+
+                        <div class="versus">VS</div>
+                        
+                        
+        
+                    </div>
+                            <!-- the center div for versus ends here -->
+
+                       <!-- this is the third div for all you see in the away board -->
+                       <div class="away-team-box"> 
+
+                        <div class="write-up">
+                            <h1>AWAY</h1>
+                        </div>
+
+                        <div class="away-score">
+                             <h1 id= "away-team-score">0</h1>
+                        </div>
+
+                             <div class="away-team-name">
+                             <h2 contenteditable >Tigers</h2>
+                          </div>
+
+                        
+
+                      
+
+                    </div> 
+                       <!-- The away div ends here -->
+
+                       <!-- my copy and paste clock -->
+
+            
+                      
+
+                      <!-- my thought out trick is to get second method then, let say xx = get seconds on click, then if seconds is greater than xx, let xx = second and another variable called value equal to +=1 then i keep using its count for my count down...I Never used this at the end-->
+                    
+
+        </div>
+        <div class="GAME-BTN-ZONE">
+
+          <div class="home-buttons">
+            <button class= "home-score-btns all-score-btns" id="home-add-1">+1</button>
+            <button class= "home-score-btns all-score-btns" id="home-add-2">+2</button>
+            <button class= "home-score-btns all-score-btns" id="home-add-3">+3</button>
+            <button class= "home-score-btns all-score-btns" id="home-subtract-1">-1</button>
+            <button class= "home-score-btns all-score-btns" id="home-subtract-2">-2</button>
+            <button class= "home-score-btns all-score-btns" id="home-subtract-3">-3</button>
+        </div>
+
+        <div class = "time-btns">
+        <button id="time-start-btn">Start</button>
+        <button type="reset" class="time-pause-or-end-btn">Pause</button> 
+        </div>
+
+
+          <div class="away-buttons">
+            <button class="away-score-btns all-score-btns" id="away-add-1">+1</button>
+            <button class="away-score-btns all-score-btns" id="away-add-2">+2</button>
+            <button class="away-score-btns all-score-btns" id="away-add-3">+3</button>
+            <button class="away-score-btns all-score-btns" id="away-subtract-1">-1</button>
+            <button class="away-score-btns all-score-btns" id="away-subtract-2">-2</button>
+            <button class="away-score-btns all-score-btns" id="away-subtract-3">-3</button>
+        </div>
+
+
+        </div>
+
+        <div class="Real-live-time-and-Reset">
+          <div class="display">  </div>
+          <div class="Reset"> <button id="RESET-ALL" ondblclick="window.location.reload()">RESET</button> </div>
+        </div>
+
+
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
