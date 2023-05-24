@@ -68,7 +68,7 @@ for (let i = 0; i < allScoreBtns ; i++) {
                 }) ;
 
                 resetBtn.addEventListener("mouseout", function(){
-                    alert("Are you sure you want to reset the whole game? Every data will be wiped. If YES, double click the Reset button!! If NO, just click Ok to exit this alert message!!")
+                    alert("If you double clicked, you just reset the score board, you can edit the names of the teams directly also. If not...Are you sure you want to reset the whole game? Every data will be wiped. If YES, double click the Reset button!! If NO, just click Ok to exit this alert message!!")
                        }) ;
                 
 
