@@ -67,7 +67,7 @@ for (let i = 0; i < allScoreBtns ; i++) {
              pause = true           
                 }) ;
 
-                resetBtn.addEventListener("click", function(){
+                resetBtn.addEventListener("mouseout", function(){
                     alert("Are you sure you want to reset the whole game? Every data will be wiped. If YES, double click the Reset button!! If NO, just click Ok to exit this alert message!!")
                        }) ;
                 
