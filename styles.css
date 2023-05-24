@@ -8,6 +8,7 @@ main {
     background-color: chocolate;
     border-radius: 15px;
 
+
 }
 
 .container{
@@ -89,6 +90,33 @@ button{
     border-radius: 5px;
     border: 2px solid black;
 }
+
+footer{
+    margin: 5px auto;
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+   
+   }
+   
+
+   .fab{
+    color: white;
+    font-size: larger;
+    margin-top: 5%;
+
+   }
+
+   .fab:hover{
+    color: black;
+   }
+
+   .social-icons{
+    display: flex;
+    gap: 7%;
+    margin: auto;
+    justify-content: center;
+   }
+
 
 @media (max-width: 710px) {
 
