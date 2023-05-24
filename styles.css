@@ -11,12 +11,21 @@ main {
 
 }
 
+.container-background{
+    
+    border-radius: 10px;
+    background-image: url("images/back5.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container{
     
     /* border: 3px solid rebeccapurple; */
     display: grid;
     grid-template-columns: calc(100% / 2.5) auto calc(100% / 2.5);
-    background-color:  burlywood;
+    background-color:  rgb(222, 184, 135);
+    opacity: 0.95;
     padding: 2%;
     border-radius: 10px;
     margin: auto;
