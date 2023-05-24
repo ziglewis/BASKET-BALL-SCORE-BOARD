@@ -7,7 +7,7 @@ const allScoreBtns = document.querySelectorAll(".all-score-btns").length //i cou
 const timeStartBtn = document.getElementById("time-start-btn")
 const timePauseOrEndBtn = document.querySelector(".time-pause-or-end-btn")
 const countUpTime = document.querySelector(".timer")
-const resetBtn = document.getElementById("time-pause-or-end-btn")
+const resetBtn = document.getElementById("RESET-ALL")
 
 // declaring the variables I need for my digital time
 let alreadyCounting = false;
@@ -67,7 +67,9 @@ for (let i = 0; i < allScoreBtns ; i++) {
              pause = true           
                 }) ;
 
-
+                resetBtn.addEventListener("click", function(){
+                    alert("Are you sure you want to reset the whole game? Every data will be wiped. If YES, double click the Reset button!! If NO, just click Ok to exit this alert message!!")
+                       }) ;
                 
 
     // code for real time clock

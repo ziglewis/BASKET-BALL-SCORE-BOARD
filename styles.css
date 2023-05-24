@@ -56,6 +56,12 @@ main {
     margin-top: -10px;
 }
 
+
+#home-team-score, #away-team-score{
+   font-size: 4rem;
+   border-radius: 50%;
+}
+
 .write-up{
     line-height: 0.7rem;
     
